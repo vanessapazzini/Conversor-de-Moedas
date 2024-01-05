@@ -18,7 +18,8 @@ Como Usar:
 
 Este Conversor de Moedas é uma ferramenta prática para quem precisa de informações precisas sobre taxas de câmbio e deseja realizar conversões de forma rápida e eficiente. Seu design acessível e funcionalidades robustas tornam-no uma escolha valiosa para quem lida com transações financeiras internacionais ou simplesmente quer manter-se atualizado sobre as flutuações nas taxas de câmbio.
 
-![foto conversor de moedas](https://github.com/vanessapazzini/Conversor-de-Moedas/assets/138176528/0033b4d5-6977-499f-8194-0dc883ab128d)
+![conversor](https://github.com/vanessapazzini/Conversor-de-Moedas/assets/138176528/f172141c-2a8f-47a9-b8c7-4deed66d5996)
+
 
 ## Atribuições
 
