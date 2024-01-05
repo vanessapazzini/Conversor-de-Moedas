@@ -1,0 +1,51 @@
+body {
+    font-family: Times, "Times New Roman", serif;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(./imagens/background.png);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #DAA520;
+    margin: 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgba(128, 0, 0, 0.5);
+    
+}
+
+#information_box {
+    color: #DAA520;
+    font-size: 22px;
+    background-color: rgba(128, 0, 0, 0.5);
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative; /* Adicione esta linha para posicionar elementos filhos relativos a este contêiner */
+}
+
+/* Adicione novos estilos para acomodar a nova estrutura */
+#input_container {
+    margin-bottom: 10px;
+}
+
+
+#autoral {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0.5px;
+    right: 10px;
+  }
