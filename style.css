@@ -3,7 +3,7 @@
     src: local("texto"), url("TEXT.TTF") format("ttf");
   }
 
-body {
+  body {
     font-family: "texto";
     text-align: center;
     font-size: 30px;
@@ -28,7 +28,7 @@ body {
 }
 
 .page-title {
-    background:  -webkit-linear-gradient(#ff8c00, #ff0000);
+    background: -webkit-linear-gradient(#ff8c00, #ff0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 0 10px;
@@ -37,16 +37,18 @@ body {
 
 #information_box {
     color: black;
-    font-size: 22px;
-    background-color: linear-gradient(rgba(255, 140, 0, 0.7), rgba(255, 0, 0, 0.7));
+    font-weight: bold;
+    font-size: 21px;
+    background: linear-gradient(rgba(255, 140, 0, 0.7), rgba(255, 0, 0, 0.7));
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
     position: relative; 
+    
 }
 
-
+/* Adicione novos estilos para acomodar a nova estrutura */
 #input_container {
     margin-bottom: 10px;
 }
@@ -60,11 +62,3 @@ body {
     bottom: 0.5px;
     right: 10px;
   }
-
-body > img {
-  margin: 0 10px;
-}
-
-img {
-  max-height: 350px;
-}
