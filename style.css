@@ -35,12 +35,13 @@ body {
     font-size: 22px;
     background-color: rgba(128, 0, 0, 0.5);
     width: 400px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     position: relative; /* Adicione esta linha para posicionar elementos filhos relativos a este contêiner */
 }
 
-
+/* Adicione novos estilos para acomodar a nova estrutura */
 #input_container {
     margin-bottom: 10px;
 }
