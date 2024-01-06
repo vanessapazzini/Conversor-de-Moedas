@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "texto";
+    src: local("texto"), url("TEXT.TTF") format("ttf");
+  }
+
 body {
-    font-family: Times, "Times New Roman", serif;
+    font-family: "texto";
     text-align: center;
     font-size: 30px;
     background-image: url(./imagens/background.png);
@@ -23,7 +28,7 @@ body {
 }
 
 .page-title {
-    background: -webkit-linear-gradient(#daa520,#800000);
+    background:  -webkit-linear-gradient(#ff8c00, #ff0000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 0 10px;
@@ -31,17 +36,17 @@ body {
 }
 
 #information_box {
-    color: #DAA520;
+    color: black;
     font-size: 22px;
-    background-color: rgba(128, 0, 0, 0.5);
+    background-color: linear-gradient(rgba(255, 140, 0, 0.7), rgba(255, 0, 0, 0.7));
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    position: relative; /* Adicione esta linha para posicionar elementos filhos relativos a este contêiner */
+    position: relative; 
 }
 
-/* Adicione novos estilos para acomodar a nova estrutura */
+
 #input_container {
     margin-bottom: 10px;
 }
@@ -55,3 +60,11 @@ body {
     bottom: 0.5px;
     right: 10px;
   }
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
